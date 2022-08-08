@@ -11,8 +11,7 @@ func main() {
 	//msg.SetHeader("From", "zczhai@baai.ac.cn")
 	msg.SetHeader("From", msg.FormatAddress("zczhai@baai.ac.cn", "算力平台"))
 	// 2. 设置收件人信息 值为  ...string 可设置多个
-	//msg.SetHeader("To", "zczhai@baai.ac.cn")
-	msg.SetHeader("To", "hhli@baai.ac.cn")
+	msg.SetHeader("To", "zczhai@baai.ac.cn")
 	// 3. 如果需要可以填充 cc，也就是抄送
 	//msg.SetHeader("Cc", "cc_address@example.com")
 	// 4. 设置邮件标题
